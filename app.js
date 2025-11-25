@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.send("Hello DevOps CI/CD Pipeline!");
-  res.send("Version 2 Deployed Automatically!");
+  res.send("Testing Version 2 Deployed Automatically!");
 });
 
 app.listen(3000, () => console.log("App running on port 3000"));
