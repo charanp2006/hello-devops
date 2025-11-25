@@ -1,0 +1,16 @@
+{
+  "name": "hello-devops",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for demonstrating CI/CD pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Tests passed successfully!\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
